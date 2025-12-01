@@ -74,6 +74,8 @@ The smart merge strategy:
       <strong>Demo 2 · Smart merge prototype</strong><br/>
       Streamlit proof-of-concept that asks an LLM for the same fix but applies it as a non-destructive patch, preserving the original code and inserting the snippet before the write operation.<br/><br/>
       <iframe src="https://drive.google.com/file/d/1HDd1SOygIFJCBWAWf4hr5Er1Lfbq9Lg4/preview" width="640" height="360" allow="autoplay"></iframe>
+      <iframe src="https://drive.google.com/file/d/1HDd1SOygIFJCBWAWf4hr5Er1Lfbq9Lg4/preview" width="640" height="480" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     </td>
   </tr>
 </table>
