@@ -61,13 +61,28 @@ The smart merge strategy:
 
 ## Demo Videos
 
-- **Demo 1 – Current Databricks behavior**: Shows how the existing “Replace active cell content” button wipes out the entire cell after the Assistant provides a partial fix snippet, deleting all context the snippet depends on. [Watch here](https://drive.google.com/file/d/1Ow4xnHDptOyFpPWlxPZZ5bWqLf4r3A15/view)[^1]
-- **Demo 2 – Smart merge prototype**: Streamlit proof-of-concept that captures the same Spark workflow, calls an LLM, and offers both the destructive replacement flow and the intelligent smart-merge action that keeps the original code intact. [Watch here](https://drive.google.com/file/d/1HDd1SOygIFJCBWAWf4hr5Er1Lfbq9Lg4/view?usp=sharing)[^2]
+<table>
+  <tr>
+    <td>
+      <strong>Demo 1 · Current Databricks behavior</strong><br/>
+      Demonstrates how “Replace active cell content” wipes out the entire cell even though the LLM snippet assumes the surrounding code still exists.<br/>
+      <a href="https://drive.google.com/file/d/1Ow4xnHDptOyFpPWlxPZZ5bWqLf4r3A15/view" target="_blank">
+        ▶ Watch Demo 1
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Demo 2 · Smart merge prototype</strong><br/>
+      Streamlit proof-of-concept that asks an LLM for the same fix but applies it as a non-destructive patch, preserving the original code and inserting the snippet before the write operation.<br/>
+      <a href="https://drive.google.com/file/d/1HDd1SOygIFJCBWAWf4hr5Er1Lfbq9Lg4/view?usp=sharing" target="_blank">
+        ▶ Watch Demo 2
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## Files
 
 - `streamlit_app.py`: Main Streamlit application
 - `requirements.txt`: Python dependencies
-
-[^1]: https://drive.google.com/file/d/1Ow4xnHDptOyFpPWlxPZZ5bWqLf4r3A15/view
-[^2]: https://drive.google.com/file/d/1HDd1SOygIFJCBWAWf4hr5Er1Lfbq9Lg4/view?usp=sharing
