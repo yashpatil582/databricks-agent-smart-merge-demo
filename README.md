@@ -65,19 +65,15 @@ The smart merge strategy:
   <tr>
     <td>
       <strong>Demo 1 · Current Databricks behavior</strong><br/>
-      Demonstrates how “Replace active cell content” wipes out the entire cell even though the LLM snippet assumes the surrounding code still exists.<br/>
-      <a href="https://drive.google.com/file/d/1Ow4xnHDptOyFpPWlxPZZ5bWqLf4r3A15/view" target="_blank">
-        ▶ Watch Demo 1
-      </a>
+      Demonstrates how “Replace active cell content” wipes out the entire cell even though the LLM snippet assumes the surrounding code still exists.<br/><br/>
+      <iframe src="https://drive.google.com/file/d/1Ow4xnHDptOyFpPWlxPZZ5bWqLf4r3A15/preview" width="640" height="360" allow="autoplay"></iframe>
     </td>
   </tr>
   <tr>
     <td>
       <strong>Demo 2 · Smart merge prototype</strong><br/>
-      Streamlit proof-of-concept that asks an LLM for the same fix but applies it as a non-destructive patch, preserving the original code and inserting the snippet before the write operation.<br/>
-      <a href="https://drive.google.com/file/d/1HDd1SOygIFJCBWAWf4hr5Er1Lfbq9Lg4/view?usp=sharing" target="_blank">
-        ▶ Watch Demo 2
-      </a>
+      Streamlit proof-of-concept that asks an LLM for the same fix but applies it as a non-destructive patch, preserving the original code and inserting the snippet before the write operation.<br/><br/>
+      <iframe src="https://drive.google.com/file/d/1HDd1SOygIFJCBWAWf4hr5Er1Lfbq9Lg4/preview" width="640" height="360" allow="autoplay"></iframe>
     </td>
   </tr>
 </table>
